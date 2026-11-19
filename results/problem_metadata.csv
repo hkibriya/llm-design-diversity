@@ -1,0 +1,31 @@
+problem_id,title,time_limit_ms,memory_limit_mb,has_special_judge,judge_review_needed
+0,Arrow a Row,1000,1024,False,True
+1,Athlete Welcome Ceremony,2500,1024,False,False
+2,Closest Derangement,3000,1024,False,False
+3,Disrupting Communications,2000,1024,False,False
+4,Double 11,6000,1024,True,True
+5,Expanding Array,2000,1024,False,False
+6,Friendship is Magic,1000,1024,False,False
+7,Good Partitions,1000,1024,False,False
+8,Grand Prix of Ballance,2000,1024,False,False
+9,Magical Set,1000,1024,False,False
+10,Recover Statistics,1000,1024,False,True
+11,Two Convex Holes,5000,1024,True,True
+12,Hitoshizuku,2000,1024,False,False
+13,Norte da Universidade,8000,1024,False,False
+14,Keystone Correction,4000,1024,True,True
+15,Corrupted Scoreboard Log,4000,1024,False,False
+16,Boolean Function Reconstruction,4000,1024,False,False
+17,Collatz Conjecture,2000,1024,False,False
+18,Staircase Museum,2000,1024,False,False
+19,Color-Balanced Tree,4000,1024,False,False
+20,The Mysterious Shop,2000,1024,False,False
+21,Exploration Boundary,4000,1024,False,False
+22,Shiori,6000,1024,False,False
+23,AUS,1000,1024,False,False
+24,Barkley III,2000,1024,False,False
+25,Catch the Star,4000,1024,True,True
+26,Dividing Sequence,1000,1024,False,False
+27,Fuzzy Ranking,2000,1024,False,False
+28,Gathering Mushrooms,2000,1024,False,False
+29,Japanese Bands,3000,1024,False,False

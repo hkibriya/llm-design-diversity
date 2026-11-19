@@ -1,0 +1,7 @@
+model1,model2,evaluated_inputs,both_correct,both_failed,one_failed,agreed_wrong,joint_failure_rate_pct
+claude,meta,460,40,384,36,1,83.4783
+gemini,claude,460,63,249,148,1,54.1304
+gemini,meta,460,41,255,164,1,55.4348
+gpt,claude,460,40,293,127,0,63.6957
+gpt,gemini,460,105,228,127,1,49.5652
+gpt,meta,460,27,308,125,2,66.9565

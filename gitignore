@@ -1,0 +1,57 @@
+# Large benchmark files: download separately
+/dataset/
+
+# Local compiler products and per-test stdout/stderr required for local reruns
+/outputs/
+
+# Demonstration scripts (not part of the published pipeline)
+/scripts/step1_*.py
+/scripts/step2_*.py
+/scripts/step3_*.py
+/scripts/step4_*.py
+/scripts/step5_*.py
+/scripts/step6_*.py
+/scripts/step9_*.py
+/scripts/step10_*.py
+/scripts/step14_*.py
+/scripts/archive/
+
+# Demonstration and redundant partial results
+/results/judged_results_id9.csv
+/results/judged_results_id10.csv
+/results/problem9_*
+/results/full_execution_log.txt
+/results/compile_errors/
+
+# Local inventory
+/project_file_tree.txt
+
+# Generated logs, Python caches, virtual environments
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# IDE/OS artifacts and binary outputs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.o
+*.obj
+*.exe
+*.so
+*.a
+*.dll
+
+# Large archives and private draft documents
+*.zip
+*.docx
+*.xlsx
+*.pdf
+*.pptx

@@ -1,0 +1,15 @@
+system_type,system,total_inputs,correct,wrong_accepted,rejected_or_unavailable,correct_rate_pct,wrong_acceptance_pct,rejection_or_unavailable_pct
+Individual,CLAUDE,460,72,67,321,15.65,14.57,69.78
+Individual,GEMINI,460,202,155,103,43.91,33.7,22.39
+Individual,GPT,460,135,176,149,29.35,38.26,32.39
+Individual,META,460,44,209,207,9.57,45.43,45.0
+Two-version,CLAUDE + META,460,40,1,419,8.7,0.22,91.09
+Two-version,GEMINI + CLAUDE,460,63,1,396,13.7,0.22,86.09
+Two-version,GEMINI + META,460,41,1,418,8.91,0.22,90.87
+Two-version,GPT + CLAUDE,460,40,0,420,8.7,0.0,91.3
+Two-version,GPT + GEMINI,460,105,1,354,22.83,0.22,76.96
+Two-version,GPT + META,460,27,2,431,5.87,0.43,93.7
+Three-version,GEMINI + CLAUDE + META,460,66,3,391,14.35,0.65,85.0
+Three-version,GPT + CLAUDE + META,460,59,3,398,12.83,0.65,86.52
+Three-version,GPT + GEMINI + CLAUDE,460,140,2,318,30.43,0.43,69.13
+Three-version,GPT + GEMINI + META,460,121,4,335,26.3,0.87,72.83

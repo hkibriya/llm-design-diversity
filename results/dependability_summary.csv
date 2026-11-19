@@ -1,0 +1,7 @@
+model1,model2,evaluated_inputs,accepted_correct,accepted_wrong,rejected,unassessed,correct_rate_pct,incorrect_acceptance_pct,rejection_rate_pct,failure_rate_pct
+claude,meta,460,40,1,419,0,8.6957,0.2174,91.087,91.3043
+gemini,claude,460,63,1,396,0,13.6957,0.2174,86.087,86.3043
+gemini,meta,460,41,1,418,0,8.913,0.2174,90.8696,91.087
+gpt,claude,460,40,0,420,0,8.6957,0.0,91.3043,91.3043
+gpt,gemini,460,105,1,354,0,22.8261,0.2174,76.9565,77.1739
+gpt,meta,460,27,2,431,0,5.8696,0.4348,93.6957,94.1304
