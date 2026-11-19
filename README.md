@@ -2,14 +2,14 @@
 
 An empirical evaluation of whether independently generated programs fail on the same inputs and whether N-version output voting improves dependability.
 
-The experiment uses **four LLMs** (GPT, Gemini, Claude, and Meta), **30 ICPC-Eval programming problems**, and **20 test inputs per problem**. The resulting **120 C++ programs** were compiled and executed on **2,400 model–input combinations**. The reported voting analysis covers **23 problems (460 distinct test inputs)** for which the implemented correctness checks were applicable.
+The experiment uses 4 LLMs (GPT, Gemini, Claude, and Meta), 30 ICPC-Eval programming problems, and 20 test inputs per problem. The resulting 120 C++ programs were compiled and executed on 2,400 model–input combinations. The reported voting analysis covers 23 problems (460 distinct test inputs) for which the implemented correctness checks were applicable.
 
 ## Research questions
 
-1. How frequently do independently generated programs fail on the same test input?
-2. How often do different programs produce the **same incorrect output**?
-3. Does two-version agreement voting or three-version majority voting reduce incorrect-output acceptance compared with a single LLM-generated program?
-4. What is the trade-off between incorrect-output acceptance and correct-answer availability?
+RQ 1. How frequently do independently generated programs fail on the same test input?
+RQ 2. How often do different programs produce the same incorrect output?
+RQ 3. Does two-version agreement voting or three-version majority voting reduce incorrect-output acceptance compared with a single LLM-generated program?
+RQ 4. What is the trade-off between incorrect-output acceptance and correct-answer availability?
 
 ## Experimental design
 
@@ -24,7 +24,7 @@ The experiment uses **four LLMs** (GPT, Gemini, Claude, and Meta), **30 ICPC-Eva
 | Voting configurations | All 6 model pairs; all 4 three-model combinations |
 | Analysed subset | 23 problems × 20 inputs = 460 cases per system |
 
-Each program is evaluated against all available test inputs rather than stopping at its first failure. Compilation errors, execution failures, timeouts, and incorrect answers are preserved as separate outcomes. Programs are **not manually fixed** after generation.
+Each program is evaluated against all available test inputs rather than stopping at its first failure. Compilation errors, execution failures, timeouts, and incorrect answers are preserved as separate outcomes. Programs are not manually fixed after generation.
 
 ### Voting rules
 
@@ -35,7 +35,7 @@ Each program is evaluated against all available test inputs rather than stopping
 
 ## Key results
 
-The following figures are based on **460 test inputs from 23 assessed problems**, not all 30 problems.
+The following figures are based on 460 test inputs from 23 assessed problems, not all 30 problems.
 
 | System | Correct answers | Incorrect answers accepted | Rejected / unavailable |
 | --- | ---: | ---: | ---: |
