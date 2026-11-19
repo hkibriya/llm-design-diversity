@@ -124,6 +124,3 @@ Execution writes temporary binaries and standard-output captures under `outputs/
 - **Statistical unit:** Inputs within a programming problem are related; the 460 case-level results should not be treated as 460 independent programming tasks.
 - **Voting versus oracle selection:** The reported voter never uses reference answers to choose an output. It is not an oracle that selects whichever model happens to be correct.
 
-## Benchmark attribution
-
-The programming tasks and test cases originate from [ICPC-Eval](https://github.com/RUCAIBox/ICPC-Eval). Review the upstream dataset's terms before redistributing its contents. This repository does not include the full benchmark dataset.
